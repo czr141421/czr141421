@@ -17,7 +17,6 @@ class RouterConfig extends React.Component {
     render() {
         return (
             <Router>
-                <Page3></Page3>
                 <Switch>
                     <Route exact path="/" component={App}></Route>
                     <Route path="/home" component={Home}></Route>
@@ -25,7 +24,7 @@ class RouterConfig extends React.Component {
                         {/* <Redirect to="/home"></Redirect> */}
                     </Route>
                     <Route path="/page2/:aaa" component={Page2}></Route>
-                    {/* <Route path='*' component={Page3}></Route> */}
+                    <Route path="*" component={Page3}></Route>
                 </Switch>
             </Router>
         );
