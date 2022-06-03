@@ -1,0 +1,14 @@
+.all {
+    width: 250px;
+    height: 300px;
+    border: solid 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightCont {
+    width: 300px;
+    height: 200px;
+    border: solid 1px red;
+    overflow: auto;
+}
